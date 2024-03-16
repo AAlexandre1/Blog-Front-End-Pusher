@@ -19,4 +19,5 @@ export const routes: Routes = [
     path: 'blogs/new',
     loadComponent: () => import('./features/blogs/create-blog/create-blog.component').then((c) => c.CreateBlogComponent)
   }
+  
 ];
